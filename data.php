@@ -1,4 +1,4 @@
-
+<!-- dashboard -->
 <!DOCTYPE html>
 <?php
 $servername = "localhost";
@@ -233,7 +233,7 @@ left:3%;
                 <th>Current Average</th>
                 <th>Budget usage% </th>
                 </tr>
-               
+         
                <?php 
                if($_SERVER['REQUEST_METHOD'] == "POST" and isset($_POST['someAction']))
                {
